@@ -37,5 +37,5 @@ jobs:
         working-directory: ./client
         
       - name: Run a ng build
-        run: npm build:ci
+        run: npm run build:ci
         working-directory: ./client
