@@ -40,8 +40,7 @@ jobs:
         run: npm run build:ci
         #run: npm run build
         working-directory: ./client
-        
-      - name: Commit Changes
+
       - uses: EndBug/add-and-commit@v7
         with:
           add: .
